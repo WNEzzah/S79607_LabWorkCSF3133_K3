@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>UMT TopCoders 2026 Registration</title>
+</head>
+<body>
+
+<header>
+    <h1>UMT TopCoders 2026</h1>
+    <p>Code, Compete , Conquer</p>
+</header>
+
+<nav>
+    <a href="#schedule">Event Schedule</a>
+    <a href="#register">Registration</a>
+    <a href="#about">About Event</a>
+</nav>
+
+<!--About the event section-->
+<section id="about">
+    <h2>About the Event</h2>
+    <article>
+        <h3>Jeff Dean </h3>
+        <p>Chief Scientist at Google who will deliver the keynote speech on modern AI tools in development workflows.</p>
+    </article>
+    <article>
+        <h3>Mark Zuckerberg</h3>
+        <p>CEO of Meta who will lead the hands-on prototyping workshop.</p>
+    </article>
+</section>
+
+<section id="schedule">
+        <h2>Event Schedule</h2>
+        <table border="1">
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+                <th>Person in Charge</th>
+            </tr>
+            <tr>
+                <td>08:00 AM - 09:00 AM</td>
+                <td>Participant Registration & Breakfast</td>
+                <td>Sanggar siswa</td>
+                <td>Protocol Committee</td>
+            </tr>
+            <tr>
+                <td>09:00 AM - 10:30 AM</td>
+                <td>Opening Ceremony & Keynote Speech</td>
+                <td rowspan="2">Dewan Sultan Mizan</td>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 12:30 PM</td>
+                <td>UI/UX Prototyping Workshop</td>
+                <td>Steve Wozniak</td>
+            </tr>
+            <tr>
+                <td>12:30 PM - 02:00 PM</td>
+                <td colspan="3">Lunch Break & Networking</td>
+            </tr>
+            <tr>
+                <td>02:00 PM - 05:00 PM</td>
+                <td>Hackathon Coding Challenge (Phase 1)</td>
+                <td>Computer Lab 2</td>
+                <td>Technical Committee</td>
+            </tr>
+            <tr>
+                <td>05:00 PM - 06:00 PM</td>
+                <td>Project Submission & Closing Remarks</td>
+                <td>Dewan Sultan Mizan</td>
+                <td>Head of Department</td>
+            </tr>
+        </table>
+    </section>
+
+<!-- Registration Section -->
+    <section id="register">
+        <h2>Registration</h2>
+        <form action="register.html" method="post">
+            <!-- Inputs -->
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="matric">Matric Number:</label>
+            <input type="text" id="matric" name="matric"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <!-- Radio Buttons-->
+            <label>Year of Study:</label><br>
+            <input type="radio" id="year1" name="year_study" value="Year 1">
+            <label for="year1">Year 1</label><br>
+            <input type="radio" id="year2" name="year_study" value="Year 2" checked>
+            <label for="year2">Year 2</label><br>
+            <input type="radio" id="year3" name="year_study" value="Year 3">
+            <label for="year3">Year 3</label><br>
+            <input type="radio" id="year4" name="year_study" value="Year 4">
+            <label for="year4">Year 4</label><br><br>
+
+            <!-- Checkboxes  -->
+            <label>Sessions to Join:</label><br>
+            <input type="checkbox" id="sess1" name="sessions" value="Keynote">
+            <label for="sess1">Keynote Speech</label><br>
+            <input type="checkbox" id="sess2" name="sessions" value="UIUX">
+            <label for="sess2">UI/UX Workshop</label><br>
+            <input type="checkbox" id="sess3" name="sessions" value="Hackathon">
+            <label for="sess3">Hackathon Coding Challenge</label><br><br>
+
+            <!-- Drop-down List (<select> with at least 4 options) -->
+            <label for="programme">Programme / Faculty:</label>
+            <select id="programme" name="programme">
+                <option value="SE">Software Engineering</option>
+                <option value="MC">Mobile Computing</option>
+                <option value="IM">Informatics Maritime</option>
+                <option value="MS">Other</option>
+            </select><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register Now">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Faculty of Computer Science and Mathematics, UMT. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
