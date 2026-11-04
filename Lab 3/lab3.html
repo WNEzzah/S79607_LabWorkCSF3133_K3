@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Exercise 3 - Contact Form & Calculator</title>
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header-section">
+        <h1>Contact & Resources</h1>
+        <!-- Inline element used for subtitle/slogan -->
+        <span>Connect Instantly. Explore Seamlessly.</span>
+    </div>
+
+    <!--Content Section -->
+    <div class="content-section">
+        <h2>Connect with us</h2>
+        <form action="#" method="POST">
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="name@example.com">
+            </div>
+
+            <!-- Date -->
+            <div class="form-group">
+                <label for="contact-date">Preferred Contact Date:</label>
+                <input type="date" id="contact-date" name="contact-date" required>
+            </div>
+
+            <!-- Range slider input -->
+            <div class="form-group">
+                <label for="satisfaction">Satisfaction Level (1 to 10):</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="5" oninput="satOutput.value = satisfaction.value">
+                <output name="satOutput" id="satOutput">5</output>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit">Submit Inquiry</button>
+        </form>
+
+        <!--  Inline Calculator -->
+        <div class="calculator-section">
+            <h3>Inline Calculator (Addition)</h3>
+            <form oninput="sumOutput.value = Number(num1.value) + Number(num2.value)">
+                <div class="form-group">
+                    <label for="num1">First Number:</label>
+                    <input type="number" id="num1" name="num1" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="num2">Second Number:</label>
+                    <input type="number" id="num2" name="num2" value="0">
+                </div>
+                <div class="form-group">
+                    <label>Calculated Sum: <output name="sumOutput" id="sumOutput">0</output></label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <p>Contact Info: inquiries@example.com | Phone: +60 14 575 0698</p>
+        <!-- HTML Entity for Copyright symbol -->
+        <p>&copy; 2026 Website. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
+   
