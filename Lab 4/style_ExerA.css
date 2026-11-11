@@ -1,0 +1,85 @@
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #1b4f72;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+/* Interactive Link States */
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #d4ac0d;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #2e86c1;
+    color: #82c6f7;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav a:active {
+    color: #f39c12;
+}
+
+/* ID Selector Styling */
+#destinations {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d5dbdb;
+}
+
+#destinations h2 {
+    text-decoration: underline;
+    color: #2874a6;
+}
+
+/* Class Selector Styling */
+.card {
+    background-color: #ebf5fb;
+    border: 1px solid #a9cce3;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #909497;
+}
+
+.trip-form {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #eaeded;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+}
+
+/* Responsive Video Styling */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+}

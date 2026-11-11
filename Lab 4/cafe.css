@@ -1,0 +1,70 @@
+/* Navigation Bar Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1A5276;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Interactive Link States  */
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+nav a:visited {
+    color: #FAD7A0;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #E67E22;
+    color: #ffffff;
+}
+
+nav a:active {
+    color: #C0392B;
+}
+
+/* Highlight and Price Styling */
+.highlight {
+    font-weight: bold;
+    color: #C0392B;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #7F8C8D;
+}
+
+/* Feedback Form Styling */
+.feedback-form {
+    width: 85%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #EAEDED;
+    border: 1px solid #BDC3C7;
+    border-radius: 6px;
+}
+
+/* Responsive Design for Small Screens */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+}
