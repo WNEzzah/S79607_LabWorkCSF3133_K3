@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Campus Bookstore</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<!-- Error 1 fixed: rel="stylesheet" -->
+<link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <!-- 
+        Error 1 (shop.html, Line 7): Attribute rel="stylesheets" has an incorrect plural form 's', should be rel="stylesheet"
+        Error 2 (shop.html, Line 13): Navigation list <ul> was outside of a <nav> element
+        Error 3 (shop.html, Line 18): Inline style uses '=' instead of a colon  ,color=#1B4F72 should be color:#1B4F72
+        Error 4 (shop.html, Line 18): Title heading <h1> was not wrapped inside a <header> element.
+        Error 5 (shop.css, Line 2): Font name 'Robotto' misspelled, should be 'Roboto'
+        Error 6 (shop.css, Line 3): 'no repeat' contains an invalid space, should be 'no-repeat'
+        Error 7 (shop.css, Line 5): 'bacground-position' is misspelled, should be 'background-position'
+        Error 8 (shop.css, Line 18): Link display property set to 'inline' prevents proper padding, should be 'block'
+        Error 9 (shop.css, Line 23): Syntax 'li:a:hover' is invalid, should be 'li a:hover'
+        Error 10 (shop.css, Line 27): border-collapse value 'collapsed' is invalid, should be 'collapse'.
+        Error 11 (shop.css, Line 37): 'tr:hovered' is invalid, should be 'tr:hover'.
+    -->
+
+    <!-- Error 4 fixed: inside <header> -->
+    <header>
+        <!-- Error 3 fixed: color:#1B4F72 -->
+        <h1 style="color: #eff4f8;">Campus Bookstore</h1>
+        <p>Textbooks, stationery and more for every student.</p>
+    </header>
+
+    <!-- Error 2 fixed: Wrapped inside <nav> -->
+    <nav>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#books">Books</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <table id="products">
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th class="price-col">Price (RM)</th>
+            </tr>
+            <tr>
+                <td>Web Design Basics</td>
+                <td>Textbook</td>
+                <td class="price-col">45.00</td>
+            </tr>
+            <tr>
+                <td>A4 Notebook</td>
+                <td>Stationery</td>
+                <td class="price-col">6.50</td>
+            </tr>
+            <tr>
+                <td>USB Drive 32GB</td>
+                <td>Gadget</td>
+                <td class="price-col">25.00</td>
+            </tr>
+            <tr>
+                <td>Highlighter Set</td>
+                <td>Stationery</td>
+                <td class="price-col">9.90</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>© 2026 Campus Bookstore</footer>
+</body>
+</html>

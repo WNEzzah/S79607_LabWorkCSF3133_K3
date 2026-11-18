@@ -1,0 +1,139 @@
+/* General Page Styling */
+body {
+    background-color: #FBF7F0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center; 
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #ffffff; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    text-align: center; 
+    margin: 0; 
+}
+
+/* Navigation  */
+nav {
+    background-color: #2C2C2C;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left; 
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav li a.active {
+    background-color: #E67E22;
+}
+
+/* Content */
+main {
+    width: 90%;
+    max-width: 980px;
+    margin: 30px auto;
+    background-color: #FBF7F0;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Styled Table */
+#menu-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+#menu-table th, 
+#menu-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+#menu-table th {
+    background-color: #E67E22;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#menu-table th.price-col,
+#menu-table td.price-col {
+    text-align: right;
+}
+
+#menu-table tr:nth-child(even) {
+    background-color: #F9F3EC;
+}
+
+#menu-table tr:hover {
+    background-color: #EFE6D8;
+}
+
+/* Footer */
+footer {
+    background-color: #EFE6D8;
+    color: #333;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
