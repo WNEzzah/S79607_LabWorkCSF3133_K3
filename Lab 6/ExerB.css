@@ -1,0 +1,91 @@
+/* Page layout and typography */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+    margin: 24px;
+}
+
+h2 {
+    color: #164975;
+    margin-bottom: 16px;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    border: 1px solid #d5dce3;
+    border-radius: 6px;
+    padding: 18px;
+    max-width: 380px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 6px 10px;
+    border: 1px solid #b8c2cc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+/* Button styling and hover effect */
+button {
+    padding: 8px 14px;
+    background-color: #2176bd;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 6px;
+    margin-top: 4px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #145285;
+}
+
+/* Result and timestamp text */
+#result {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 12px 0 4px 0;
+}
+
+#checkedTime {
+    font-size: 0.95rem;
+    font-weight: bold;
+    margin: 0 0 14px 0;
+}
+
+/* Grade table */
+table {
+    border-collapse: collapse;
+    margin-top: 14px;
+    background-color: #ffffff;
+    min-width: 240px;
+}
+
+th, td {
+    border: 1px solid #cbd3dc;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+th {
+    background-color: #164975;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
