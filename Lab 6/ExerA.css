@@ -1,0 +1,144 @@
+/* General Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header Banner */
+header {
+    background-color: #164975;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Card Sections */
+.card {
+    background-color: white;
+    border: 1px solid #dce1e7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-right: 8px;
+}
+
+/* Button Styling and Hover Effect */
+button {
+    padding: 9px 16px;
+    background-color: #2176bd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    margin-right: 6px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #155387;
+}
+
+/* Welcome and Result Text */
+#welcomeMsg {
+    font-weight: bold;
+    color: #164975;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#summaryText {
+    font-weight: bold;
+    color: #164975;
+    margin-bottom: 0;
+}
+
+/* Game Arena & Fixed Image Size */
+.arena {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.player-box {
+    text-align: center;
+}
+
+.player-box img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.vs {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #777;
+}
+
+/* Scoreboard  */
+.scoreboard span {
+    margin-right: 20px;
+    font-size: 1.05rem;
+}
+
+/* History Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #d0d7de;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #164975;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+}
